@@ -1,0 +1,164 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1{
+    color: #5b5959;
+}
+
+h2{
+    color:#252424;
+}
+
+/*Barra de menu*/
+header{
+    padding: 40px 20px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+    box-shadow: 0px 2px 5px rgb(19, 125, 246);
+}
+
+/*Contenedor de los links*/
+ul.menu{
+    display: flex;
+}
+
+/*Apartados del menu*/
+ul.menu li{
+    display: inline-block;
+    margin: 0px 10px;
+    width: 70px;
+    text-align: center;
+}
+
+/*Enlaces de cada apartado del menu*/
+ul.menu li a{
+    text-decoration: none;
+    color: #252424;
+}
+
+ul.menu li a:hover{
+    text-decoration: underline;
+}
+
+main{
+    padding: 50px;
+    
+}
+
+/*Formato para la pagina de formulario*/
+
+main.registro{
+    background: rgb(9,106,121);
+    background: linear-gradient(90deg, rgba(9,106,121,1) 6%, rgba(41,129,205,1) 44%, rgba(0,212,255,1) 100%); 
+    
+}
+
+/*Titulo del formulario*/
+h3{
+    text-align: center;
+}
+
+/*Margen para el primer texto*/
+p:nth-child(2){
+    margin-top: 50px;
+}
+
+/*Margenes paara el resto de textos*/
+p{
+    margin-top: 20px;
+    margin-bottom: 7px;
+}
+
+
+/* Formato de la caja formulario*/
+form.registro{
+    width: 40%;
+    padding: 20px;
+    margin: auto;
+
+    background-color: white;
+
+    border-radius: 10px;
+    box-shadow: 1px 2px 15px grey;
+    text-align: center;
+
+}
+
+
+/* Formato de cada cajita de texto*/
+input.info{
+    width: 70%;
+    height: 40px;
+
+    border-style: none;
+    border-radius: 5px;
+
+    background-color: rgba(128, 128, 128, 0.164);
+
+    text-align: center;
+    font-size: 20px;
+}
+
+/* Cambio de fondo a blanco en las cajitas de texto*/
+input.info:focus{
+    background-color: white;
+}
+
+/* Caracteristicas del boton en el formulario*/
+input.btn{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 70%;
+    padding: 12px 0px;
+
+    background-color: rgb(1, 173, 1);
+    border-radius: 5px;
+    border-style: none;
+
+    color: white;
+    font-weight: bold;
+}
+
+input.btn:hover{
+    background-color: rgb(3, 133, 3);
+    cursor: pointer;
+}
+
+/*Detalles del Login*/
+
+form.login{
+    margin: auto;
+    width: 30%;
+    padding: 50px;
+
+    border-radius: 7px;
+
+    text-align: center;
+
+    box-shadow: 0px 2px 5px rgb(2, 160, 23);
+
+}
+/*Boton Login*/
+input.btn_in{
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 70%;
+    padding: 12px 0px;
+
+    background-color: rgb(253, 114, 0);
+    border-radius: 5px;
+    border-style: none;
+
+    color: white;
+    font-weight: bold;
+}
+
+input.btn_in:hover{
+    background-color: rgb(255, 121, 10);
+    cursor: pointer;
+    box-shadow: 0px 2px 5px rgba(172, 172, 172, 0.596);
+}

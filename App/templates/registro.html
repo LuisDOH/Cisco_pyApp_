@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/static/pages.css">
+    <title>Registro</title>
+</head>
+<body>
+
+    <header>
+        <h1> Bienvenidos</h1>
+        <ul class = "menu">
+            <li><a href="{{ url_for('inicio') }}">Inicio</a></li>
+            <li><a href="{{ url_for('registro') }}">Registro</a></li>
+            <li><a href="{{ url_for('login') }}">LOGIN</a></li>
+        </ul>
+    </header>
+
+    <main class = "registro">
+        
+
+        <form action="" method = "post" class = "registro">
+            <h3>Formulario de registro</h3>
+
+            <p>Nombre</p>
+            <input type="text" class = "info" name="_nombre">
+
+            <p>Edad</p>
+            <input type="text" class = "info" name="_edad">
+
+            <p>Correo electronico</p>
+            <input type="text" class = "info" name="_correo">
+
+            <p>Ciudad donde reside</p>
+            <input type="text" class = "info" name="_ciudad">
+
+            <p>Usuario</p>
+            <input type="text" class = "info" name="_usuario">
+
+            <p>Clave</p>
+            <input type="text" class = "info" name="_clave">
+
+            <br>
+            <input type="submit" class = "btn" value = "Registrar">
+
+        </form>
+    </main>
+    
+</body>
+</html>
